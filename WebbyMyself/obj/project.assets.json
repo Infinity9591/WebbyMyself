@@ -271,6 +271,9 @@
           }
         }
       },
+      "FontAwesomeToolkit/4.7.0": {
+        "type": "package"
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -4017,6 +4020,25 @@
         "contentFiles/any/any/wwwroot/js/bootstrap.js.map",
         "contentFiles/any/any/wwwroot/js/bootstrap.min.js",
         "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map"
+      ]
+    },
+    "FontAwesomeToolkit/4.7.0": {
+      "sha512": "B1H8fZ5F6+7BnmyvwkKEWeYebftPw460FvQdcgpcdRb2Ru63iTn9/aiV/O9ewsVHInFMJB08cVghQfDxKwYkAA==",
+      "type": "package",
+      "path": "fontawesometoolkit/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Content/font-awesome.css",
+        "content/Content/font-awesome.min.css",
+        "content/fonts/FontAwesome.otf",
+        "content/fonts/fontawesome-webfont.eot",
+        "content/fonts/fontawesome-webfont.svg",
+        "content/fonts/fontawesome-webfont.ttf",
+        "content/fonts/fontawesome-webfont.woff",
+        "content/fonts/fontawesome-webfont.woff2",
+        "fontawesometoolkit.4.7.0.nupkg.sha512",
+        "fontawesometoolkit.nuspec"
       ]
     },
     "Humanizer.Core/2.8.26": {
@@ -10724,6 +10746,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "FontAwesomeToolkit >= 4.7.0",
       "Microsoft.EntityFrameworkCore >= 7.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.14",
@@ -10738,11 +10761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\phanly's\\Source\\Repos\\WebbyMyself\\WebbyMyself\\WebbyMyself.csproj",
+      "projectUniqueName": "C:\\Users\\phanly's\\source\\repos\\WebbyMyself\\WebbyMyself\\WebbyMyself.csproj",
       "projectName": "WebbyMyself",
-      "projectPath": "C:\\Users\\phanly's\\Source\\Repos\\WebbyMyself\\WebbyMyself\\WebbyMyself.csproj",
+      "projectPath": "C:\\Users\\phanly's\\source\\repos\\WebbyMyself\\WebbyMyself\\WebbyMyself.csproj",
       "packagesPath": "C:\\Users\\phanly's\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\phanly's\\Source\\Repos\\WebbyMyself\\WebbyMyself\\obj\\",
+      "outputPath": "C:\\Users\\phanly's\\source\\repos\\WebbyMyself\\WebbyMyself\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\phanly's\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10771,6 +10794,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "FontAwesomeToolkit": {
+            "target": "Package",
+            "version": "[4.7.0, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.3, )"

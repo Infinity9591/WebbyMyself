@@ -71,3 +71,8 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+
+#myNAV a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

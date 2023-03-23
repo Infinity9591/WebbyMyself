@@ -9,101 +9,101 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebbyMyself
 build_property.RootNamespace = WebbyMyself
-build_property.ProjectDir = C:\Users\phanly's\Source\Repos\WebbyMyself\WebbyMyself\
+build_property.ProjectDir = C:\Users\phanly's\source\repos\WebbyMyself\WebbyMyself\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\phanly's\Source\Repos\WebbyMyself\WebbyMyself
+build_property.MSBuildProjectDirectory = C:\Users\phanly's\source\repos\WebbyMyself\WebbyMyself
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Branches/Create.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Branches/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Branches/CreateForm.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Branches/CreateForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoZXNcQ3JlYXRlRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Branches/Delete.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Branches/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Branches/Details.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Branches/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Branches/Edit.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Branches/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Branches/Index.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Branches/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmNoZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Classes/Create.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Classes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Classes/Delete.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Classes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Classes/Details.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Classes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Classes/Edit.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Classes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Classes/Index.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Classes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Home/Index.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Home/Privacy.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Shared/Error.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Students/Create.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Students/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Students/Delete.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Students/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Students/Details.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Students/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Students/Edit.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Students/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Students/Index.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/_ViewImports.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/_ViewStart.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phanly's/Source/Repos/WebbyMyself/WebbyMyself/Views/Shared/_Layout.cshtml]
+[C:/Users/phanly's/source/repos/WebbyMyself/WebbyMyself/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ul1thv9hjn

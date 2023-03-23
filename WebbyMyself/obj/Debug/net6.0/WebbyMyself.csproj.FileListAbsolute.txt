@@ -847,3 +847,4 @@ C:\Users\phanly's\Source\Repos\WebbyMyself\WebbyMyself\obj\Debug\net6.0\refint\W
 C:\Users\phanly's\Source\Repos\WebbyMyself\WebbyMyself\obj\Debug\net6.0\WebbyMyself.pdb
 C:\Users\phanly's\Source\Repos\WebbyMyself\WebbyMyself\obj\Debug\net6.0\WebbyMyself.genruntimeconfig.cache
 C:\Users\phanly's\Source\Repos\WebbyMyself\WebbyMyself\obj\Debug\net6.0\ref\WebbyMyself.dll
+C:\Users\phanly's\source\repos\WebbyMyself\WebbyMyself\bin\Debug\net6.0\libman.json

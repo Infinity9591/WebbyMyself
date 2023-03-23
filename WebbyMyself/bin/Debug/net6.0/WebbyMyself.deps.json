@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "WebbyMyself/1.0.0": {
         "dependencies": {
+          "FontAwesomeToolkit": "4.7.0",
           "Microsoft.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.14",
@@ -54,6 +55,7 @@
         }
       },
       "bootstrap/5.2.3": {},
+      "FontAwesomeToolkit/4.7.0": {},
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -2398,6 +2400,13 @@
       "sha512": "sha512-tZZrH4HdqBr/oeUlGoc2KliYlwXeN3qyhKgc1B5dc585+lnMkcD4A5yIX2NmNoXCCagQQiQGKn7A97sWoo2AOw==",
       "path": "bootstrap/5.2.3",
       "hashPath": "bootstrap.5.2.3.nupkg.sha512"
+    },
+    "FontAwesomeToolkit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B1H8fZ5F6+7BnmyvwkKEWeYebftPw460FvQdcgpcdRb2Ru63iTn9/aiV/O9ewsVHInFMJB08cVghQfDxKwYkAA==",
+      "path": "fontawesometoolkit/4.7.0",
+      "hashPath": "fontawesometoolkit.4.7.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

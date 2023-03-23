@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Vmo/xk85Yz0AxEDHgwdBiVRmaA6tPsH7CM5MjJYKXKGosLtM0ywtC67lQDuclWLY7RbDw1XTWjiwvboiD6/UpA==",
+  "dgSpecHash": "DGsiTnhHO68qe/putMc17kjJRWHUg9AZF5hgdrcQ6sC2Llg0GxNoeG/hpN2xDDFYHWJEBzz1EnjQ6beEZ7dssg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\phanly's\\Source\\Repos\\WebbyMyself\\WebbyMyself\\WebbyMyself.csproj",
+  "projectFilePath": "C:\\Users\\phanly's\\source\\repos\\WebbyMyself\\WebbyMyself\\WebbyMyself.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\phanly's\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\phanly's\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\phanly's\\.nuget\\packages\\bootstrap\\5.2.3\\bootstrap.5.2.3.nupkg.sha512",
+    "C:\\Users\\phanly's\\.nuget\\packages\\fontawesometoolkit\\4.7.0\\fontawesometoolkit.4.7.0.nupkg.sha512",
     "C:\\Users\\phanly's\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\phanly's\\.nuget\\packages\\jquery\\3.6.3\\jquery.3.6.3.nupkg.sha512",
     "C:\\Users\\phanly's\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -38,9 +38,9 @@
             </td>
             <td>
 				<div class="span3">
-                    <a class="btn btn-secondary " asp-action="Edit" asp-route-id="@item.ID">Edit</a> 
-                        <a class="btn btn-secondary mx-2 " asp-action="Details" asp-route-id="@item.ID">Details</a> 
-                        <a class="btn btn-secondary " asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                    <a class="btn btn-success " asp-action="Edit" asp-route-id="@item.ID">Edit</a> 
+                        <a class="btn btn-info mx-2 " asp-action="Details" asp-route-id="@item.ID">Details</a> 
+                        <a class="btn btn-danger " asp-action="Delete" asp-route-id="@item.ID">Delete</a>
                     @*<a class="delete-link" href="@Url.Action("Delete", new { id = item.ID })" data-toggle="modal"><span style="color: red">Xóa</span></a>*@
                 </div>
             </td>
