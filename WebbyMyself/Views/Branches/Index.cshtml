@@ -9,13 +9,11 @@
 <link rel="script" href="./js/site.js">
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
-<h1>Index</h1>
+<h1>Thông tin Branch</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a class="btn btn-primary my-4" asp-action="Create">Create New</a>
 </p>
-
-<button class="btn-detail">Create New</button>
 
 <table class="table">
     <thead>
@@ -31,7 +29,7 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+        <tr class="align-middle">
             <td>
                 @Html.DisplayFor(modelItem => item.ID)
             </td>
@@ -39,10 +37,12 @@
                 @Html.DisplayFor(modelItem => item.BranchName)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-                @*<a class="delete-link" href="@Url.Action("Delete", new { id = item.ID })" data-toggle="modal"><span style="color: red">Xóa</span></a>*@
+				<div class="span3">
+                    <a class="btn btn-secondary " asp-action="Edit" asp-route-id="@item.ID">Edit</a> 
+                        <a class="btn btn-secondary mx-2 " asp-action="Details" asp-route-id="@item.ID">Details</a> 
+                        <a class="btn btn-secondary " asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                    @*<a class="delete-link" href="@Url.Action("Delete", new { id = item.ID })" data-toggle="modal"><span style="color: red">Xóa</span></a>*@
+                </div>
             </td>
         </tr>
 }
