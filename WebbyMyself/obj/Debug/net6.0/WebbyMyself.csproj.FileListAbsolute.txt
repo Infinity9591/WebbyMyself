@@ -848,3 +848,4 @@ C:\Users\phanly's\Source\Repos\WebbyMyself\WebbyMyself\obj\Debug\net6.0\WebbyMys
 C:\Users\phanly's\Source\Repos\WebbyMyself\WebbyMyself\obj\Debug\net6.0\WebbyMyself.genruntimeconfig.cache
 C:\Users\phanly's\Source\Repos\WebbyMyself\WebbyMyself\obj\Debug\net6.0\ref\WebbyMyself.dll
 C:\Users\phanly's\source\repos\WebbyMyself\WebbyMyself\bin\Debug\net6.0\libman.json
+D:\C# Project\WebbyMyself\WebbyMyself\bin\Debug\net6.0\libman.json

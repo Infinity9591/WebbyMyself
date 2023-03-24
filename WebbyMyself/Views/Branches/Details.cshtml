@@ -5,21 +5,25 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<link href="~/css/site.css"> 
+<link rel="script" href="~/js/site.js">
+<script src="~/lib/font-awesome/js/all.js"></script>
+<link href="~/lib/font-awesome/css/all.css"/>
 
-<div>
-    <h4>Branch</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.BranchName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.BranchName)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a class="btn btn-secondary" asp-action="Index">Back to List</a> 
-    <a class="btn btn-primary mx-2" asp-action="Edit" asp-route-id="@Model?.ID">Edit</a> 
-</div>
+<h1 class="title">Thông tin khoa/ngành</h1>
+<br />
+<p>
+    <div>
+        <dl class="row">
+            <dt class = "col-sm-2">
+                    @Html.DisplayNameFor(model => model.BranchName)
+            </dt>
+            <dd class = "col-sm-10">
+                    @Html.DisplayFor(model => model.BranchName)
+            </dd>
+        </dl>
+        <div>
+            <a class="btn btn-secondary" asp-action="Index">Trở về trang chủ</a> 
+        </div>
+    </div>
+</p>

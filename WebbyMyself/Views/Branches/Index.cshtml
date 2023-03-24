@@ -5,48 +5,42 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<link rel="stylesheet" href="./css/site.css"> 
-<link rel="script" href="./js/site.js">
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<link href="~/css/site.css"> 
+<link rel="script" href="~/js/site.js">
+<script src="~/lib/font-awesome/js/all.js"></script>
+<link href="~/lib/font-awesome/css/all.css"/>
 
-<h1>Thông tin Branch</h1>
-
-<p>
-    <a class="btn btn-primary my-4" asp-action="Create">Create New</a>
-</p>
+<h1 class="title">Thông tin Khoa/Ngành</h1>
 
 <table class="table">
     <thead>
-        <tr>
+        <tr style="height:auto">
             <th>
-                @Html.DisplayNameFor(model => model.ID)
+                ID
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.BranchName)
+                Tên khoa
             </th>
-            <th></th>
+            <th>
+                <a class="btn btn-primary my-4 addBtnPosition" asp-action="Create">Thêm ngành học</a>
+            </th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+    @foreach (var item in Model) {
         <tr class="align-middle">
             <td>
                 @Html.DisplayFor(modelItem => item.ID)
             </td>
-            <td>
+            <td style="height: auto">
                 @Html.DisplayFor(modelItem => item.BranchName)
             </td>
-            <td>
-				<div class="span3">
-                    <a class="btn btn-success " asp-action="Edit" asp-route-id="@item.ID">Edit</a> 
-                        <a class="btn btn-info mx-2 " asp-action="Details" asp-route-id="@item.ID">Details</a> 
-                        <a class="btn btn-danger " asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-                    @*<a class="delete-link" href="@Url.Action("Delete", new { id = item.ID })" data-toggle="modal"><span style="color: red">Xóa</span></a>*@
-                </div>
+            <td style="height: 1%">
+                <a class="btn btn-success btnPosition" title="Sửa" asp-action="Edit" asp-route-id="@item.ID"><i class="fa fa-pen"></i> Sửa</a> 
+                <a class="btn btn-info mx-2 btnPosition" asp-action="Details" asp-route-id="@item.ID"><i class="fa fa-eye"></i> Xem</a> 
+                <a class="btn btn-danger btnPosition" asp-action="Delete" asp-route-id="@item.ID"><i class="fa fa-trash"></i> Xóa</a>
             </td>
         </tr>
-}
+    }
     </tbody>
 </table>
-
-<

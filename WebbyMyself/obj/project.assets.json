@@ -10756,19 +10756,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\phanly's\\.nuget\\packages\\": {}
+    "C:\\Users\\dell\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\phanly's\\source\\repos\\WebbyMyself\\WebbyMyself\\WebbyMyself.csproj",
+      "projectUniqueName": "D:\\C# Project\\WebbyMyself\\WebbyMyself\\WebbyMyself.csproj",
       "projectName": "WebbyMyself",
-      "projectPath": "C:\\Users\\phanly's\\source\\repos\\WebbyMyself\\WebbyMyself\\WebbyMyself.csproj",
-      "packagesPath": "C:\\Users\\phanly's\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\phanly's\\source\\repos\\WebbyMyself\\WebbyMyself\\obj\\",
+      "projectPath": "D:\\C# Project\\WebbyMyself\\WebbyMyself\\WebbyMyself.csproj",
+      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+      "outputPath": "D:\\C# Project\\WebbyMyself\\WebbyMyself\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\phanly's\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10844,7 +10849,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

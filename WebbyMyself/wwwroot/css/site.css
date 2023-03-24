@@ -76,3 +76,20 @@ body {
     opacity: 0.5;
     cursor: pointer;
 }
+
+.addBtnPosition {
+    position: relative;
+    left: 95%;
+    top: 20px;
+}
+
+.title {
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+
+.btnPosition {
+    position: relative;
+    left: 80%;
+}

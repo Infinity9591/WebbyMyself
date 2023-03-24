@@ -5,28 +5,30 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit</h1>
+<link href="~/css/site.css"> 
+<link rel="script" href="~/js/site.js">
+<script src="~/lib/font-awesome/js/all.js"></script>
+<link href="~/lib/font-awesome/css/all.css"/>
 
-<h4>Branch</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="ID" />
-            <div class="form-group">
-                <label asp-for="BranchName" class="control-label"></label>
-                <input asp-for="BranchName" class="form-control" />
-                <span asp-validation-for="BranchName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary my-3" />
-            </div>
-        </form>
+<h1 class="title">Sửa thông tin khoa/ngành</h1>
+<br />
+<p>
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="ID" />
+                <div class="form-group">
+                    <label asp-for="BranchName" class="control-label">Tên ngành</label>
+                    <br />
+                    <input asp-for="BranchName" class="form-control" />
+                    <span asp-validation-for="BranchName" class="text-danger" ></span>
+                </div>
+                <div class="form-group">
+                    <button type="submit" title="Lưu" class="btn btn-primary my-3"><i class="fa fa-save"></i> Lưu</button>
+                    <a class="btn btn-secondary" asp-action="Index">Trở về trang chủ</a>
+                </div>
+            </form>
+        </div>
     </div>
-</div>
-
-<div>
-    <a class="btn btn-secondary" asp-action="Index">Back to List</a>
-</div>
-
+</p>
