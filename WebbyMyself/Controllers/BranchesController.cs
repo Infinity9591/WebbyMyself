@@ -161,6 +161,3 @@ namespace WebbyMyself.Controllers
         
     }
 }
-
-//lmao lí gay
-//lmao ní không gay
