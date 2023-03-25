@@ -5,44 +5,48 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<link href="~/css/site.css"> 
+<link rel="script" href="~/js/site.js">
+<script src="~/lib/font-awesome/js/all.js"></script>
+<link href="~/lib/font-awesome/css/all.css"/>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<h1 class="title">Thông tin lớp</h1>
+
 <table class="table">
     <thead>
-        <tr>
+        <tr style="height:auto">
             <th>
-                @Html.DisplayNameFor(model => model.ID)
+                ID
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ClassName)
+                Tên lớp
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.BranchID)
+                ID Khoa
             </th>
-            <th></th>
+            <td align="right">
+                <a class="btn btn-primary my-4 addBtnPosition" asp-action="Create">Thêm lớp học</a>
+            </td>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
+    @foreach (var item in Model) {
+        <tr class="align-middle">
+            <td width="5%">
                 @Html.DisplayFor(modelItem => item.ID)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ClassName)
             </td>
-            <td>
+            <td width="5%">
                 @Html.DisplayFor(modelItem => item.BranchID)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+            <td align="right" width="21%">
+                <a class="btn btn-success " title="Sửa" asp-action="Edit" asp-route-id="@item.ID"><i class="fa fa-pen"></i> Sửa</a> 
+                <a class="btn btn-info mx-2 " asp-action="Details" asp-route-id="@item.ID"><i class="fa fa-eye"></i> Xem</a> 
+                <a class="btn btn-danger " asp-action="Delete" asp-route-id="@item.ID"><i class="fa fa-trash"></i> Xóa</a>
             </td>
         </tr>
-}
+    }
     </tbody>
 </table>

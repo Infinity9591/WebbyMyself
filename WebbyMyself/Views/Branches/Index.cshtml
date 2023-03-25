@@ -14,31 +14,31 @@
 
 <table class="table">
     <thead>
-        <tr style="height:auto">
+        <tr>
             <th>
                 ID
             </th>
             <th>
                 Tên khoa
             </th>
-            <th>
-                <a class="btn btn-primary my-4 addBtnPosition" asp-action="Create">Thêm ngành học</a>
-            </th>
+            <td align="right">
+                <a class="btn btn-primary my-4 " asp-action="Create">Thêm ngành học</a>
+            </td>
         </tr>
     </thead>
     <tbody>
     @foreach (var item in Model) {
         <tr class="align-middle">
-            <td>
+            <td width="5%">
                 @Html.DisplayFor(modelItem => item.ID)
             </td>
-            <td style="height: auto">
+            <td>
                 @Html.DisplayFor(modelItem => item.BranchName)
             </td>
-            <td style="height: 1%">
-                <a class="btn btn-success btnPosition" title="Sửa" asp-action="Edit" asp-route-id="@item.ID"><i class="fa fa-pen"></i> Sửa</a> 
-                <a class="btn btn-info mx-2 btnPosition" asp-action="Details" asp-route-id="@item.ID"><i class="fa fa-eye"></i> Xem</a> 
-                <a class="btn btn-danger btnPosition" asp-action="Delete" asp-route-id="@item.ID"><i class="fa fa-trash"></i> Xóa</a>
+            <td align="right" width="21%">
+                <a class="btn btn-success " title="Sửa" asp-action="Edit" asp-route-id="@item.ID"><i class="fa fa-pen"></i> Sửa</a> 
+                <a class="btn btn-info mx-2 " asp-action="Details" asp-route-id="@item.ID"><i class="fa fa-eye"></i> Xem</a> 
+                <a class="btn btn-danger " asp-action="Delete" asp-route-id="@item.ID"><i class="fa fa-trash"></i> Xóa</a>
             </td>
         </tr>
     }
