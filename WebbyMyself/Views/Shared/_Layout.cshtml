@@ -3,14 +3,14 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - WebbyMyself</title>
+    <title>@ViewData["Title"] - Web quản lí</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/WebbyMyself.styles.css" asp-append-version="true" />
 	<link rel="stylesheet" href="~/lib/font-awesome/css/all.css"/>
 
 </head>
-<body>
+<body style="height: 10000px">
 
     @*<header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
@@ -43,72 +43,90 @@
         </nav>
     </header>*@
 
-    <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark position-fixed" style="width: 280px; height:100%;">
 
-        <a href="/" class="d-flex align-items-center mb-4 mb-md-0 me-md-auto text-white text-decoration-none">
-            <img style ="max-width:16%; height:auto;" src="https://dktt.vimaru.edu.vn/logo.png" alt="" />
-            <span style="margin: 0 16px;" class="fs-4">Web quản lí</span>
-        </a>
+	<div class="d-flex flex-row flex-column">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark position-fixed flex-wrap " style="width:280px; height: 100%">
 
-        <hr>
-        <ul class="nav nav-pills flex-column mb-auto " id="myNAV" style="font-size: 18px;">
-            <li class="nav-item">
-                <a class="nav-link text-white navjs" asp-controller="Home" asp-action="Index">
-                    <i class="fa fa-light fa-house me-4"></i>
-                    Home
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white navjs" asp-controller="Branches" asp-action="Index">
-                    <i class="fa fa-solid fa-rectangle-list me-4"></i>
-                    Branches
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white navjs" asp-controller="Classes" asp-action="Index">
-                    <i class="fa fa-solid fa-school-flag me-4"></i>
-                    Classes
-                </a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link text-white navjs" asp-controller="Students" asp-action="Index">
-                    <i class="fa fa-solid fa-user me-4"></i> 
-                    Students
-                </a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link text-white navjs" asp-controller="Home" asp-action="Privacy">
-                    <i class="fa fa-solid fa-lock me-4"></i>
-                    Privacy
-                </a>
-            </li>
-        </ul>
-        <hr>
-
-        <div class="dropdown">
-            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://yt3.ggpht.com/VZ33TtVhSD_SAWtGf_mNTlv0ztPF1KPH72gLlLYLbM_padQPBzDVG2j8BduiL-grDPhyLLIg3bM=s88-c-k-c0x00ffffff-no-rj-mo" alt="" width="32" height="32" class="rounded-circle me-2">
-                <strong>NàLý</strong>
+            <a href="/" class="d-flex align-items-center mb-4 mb-md-0 me-md-auto text-white text-decoration-none">
+                <img style="max-width:16%; height:auto;" src="https://dktt.vimaru.edu.vn/logo.png" alt="" />
+                <span style="margin: 0 16px;" class="fs-4">Web quản lí</span>
             </a>
-            <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
-                <li><a class="dropdown-item" href="#">Settings</a></li>
-                <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Sign out</a></li>
+
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto " id="myNAV" style="font-size: 18px;">
+                <li class="nav-item">
+                    <a class="nav-link text-white navjs" asp-controller="Home" asp-action="Index">
+                        <i class="fa fa-solid fa-house me-4"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white navjs" asp-controller="Branches" asp-action="Index">
+                        <i class="fa fa-solid fa-rectangle-list me-4"></i>
+                        Branches
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white navjs" asp-controller="Classes" asp-action="Index">
+                        <i class="fa fa-solid fa-school-flag me-4"></i>
+                        Classes
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white navjs" asp-controller="Students" asp-action="Index">
+                        <i class="fa fa-solid fa-user me-4"></i>
+                        Students
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-white navjs" asp-controller="Home" asp-action="Privacy">
+                        <i class="fa fa-solid fa-lock me-4"></i>
+                        Privacy
+                    </a>
+                </li>
             </ul>
+            <hr>
+
+            <div class="dropdown">
+                <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://yt3.ggpht.com/VZ33TtVhSD_SAWtGf_mNTlv0ztPF1KPH72gLlLYLbM_padQPBzDVG2j8BduiL-grDPhyLLIg3bM=s88-c-k-c0x00ffffff-no-rj-mo" alt="" width="32" height="32" class="rounded-circle me-2">
+                    <strong>NàLý</strong>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
 
-    <!-- Page Content -->
-    <div id="content">
-        <!-- We'll fill this with dummy content -->
-    </div> 
+        <div>
+            <div class="header-fixed">
+                <div class=" d-flex flex-row justify-content-end border border-bottom bg-white" style=" padding: 8px 0;">
+                    <div class="topbar d-flex flex-row align-items-center">
+                        <div class="d-flex flex-column flex-grow-1">
+                            <span class="text-dark font-weight-bolder text-center">Phan Công Lý</span>
+                            <span class="text-muted font-weight-bold">đại học hàng hải VN</span>
+                        </div>
+                        <div>
+                            <img src="https://scontent.fhph1-2.fna.fbcdn.net/v/t39.30808-6/334550635_231980629181307_3040081910895334805_n.jpg?stp=cp6_dst-jpg&_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=dvkB64UhTHEAX-zBVeg&_nc_ht=scontent.fhph1-2.fna&oh=00_AfB7icz40KAV6V-eCuwZeZmlzB4kB2o2D3woZ19VE9luzg&oe=6424299F"
+                                 alt="" width="46" height="auto" class="rounded-circle mx-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid " style="padding-left: 300px; padding-right: 20px">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+        </div>
+
     </div>
+    
+    
 
     @*<footer class="border-top footer text-muted">
         <div class="container">
@@ -136,4 +154,5 @@
     </script>
 
 </body>
+
 </html>
