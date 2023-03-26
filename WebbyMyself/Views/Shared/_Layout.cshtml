@@ -44,7 +44,7 @@
     </header>*@
 
 
-	<div class="d-flex flex-row flex-column">
+	<div class="d-flex flex-row flex-column myDIV">
         <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark position-fixed flex-wrap " style="width:280px; height: 100%">
 
             <a href="/" class="d-flex align-items-center mb-4 mb-md-0 me-md-auto text-white text-decoration-none">
@@ -141,15 +141,16 @@
 
 
 	<script>
-        let list = document.querySelectorAll('.navjs');
-        for (let i = 0; i < list.length; i++){
-            list[i].onclick = function(){
-                let j = 0;
-                while (j < list.length){
-                    list[j++].classList.remove("active");
+        var header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("navjs");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                if (current.length > 0) {
+                    current[0].className = current[0].className.replace(" active", "");
                 }
-                list[i].classList.add("active");
-            }
+                this.className += " active";
+            });
         }
     </script>
 

@@ -2,3 +2,67 @@
     ViewData["Title"] = "Home Page";
 }
 
+
+<h1 class="py-4" style="margin: 24px 0;">Trang chủ</h1>
+
+
+<div class="container-fluid p-4 h-100">
+	<div class="row my-10">
+		<div class="col ">
+			<a asp-controller="Branches" asp-action="Index" class="text-decoration-none">
+				<div class="card">
+					<div class="d-flex align-items-center p-6">
+						<i class="fa fa-solid fa-rectangle-list mx-4 " style="font-size: 48px; color: #3599ff;"></i>
+						<h3 class="text-black font-weight-bold">
+							Branch
+						</h3>
+					</div>
+				</div>
+			</a>
+		</div>
+
+		<div class="col ">
+			<a asp-controller="Classes" asp-action="Index" class="text-decoration-none text-black">
+				<div class="card">
+					<div class="d-flex align-items-center p-6">
+						<i class="fa fa-solid fa-school-flag mx-4 " style="font-size: 48px; color: #3599ff;"></i>
+						<h3 class=" font-weight-bold">
+							Classes
+						</h3>
+					</div>
+				</div>
+			</a>
+		</div>
+
+		<div class="col ">
+			<a asp-controller="Students" asp-action="Index" class="text-decoration-none text-black">
+				<div class="card">
+					<div class="d-flex align-items-center p-6">
+						<i class="fa-solid fa-list mx-4" style="color: #3599ff; font-size: 48px"></i>					
+						<h3 class=" font-weight-bold">
+							Students
+						</h3>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+
+	<hr style="margin:80px 0 40px 0;"/>
+
+	<h1 class="">Notification</h1>
+
+	<div class="notification">
+		<div class="d-flex flex-column my-5">
+			<div class="tb1 " style="font-size: 24px">
+				<i class="fa fa-solid fa-bell mx-4" style="color: #3599ff;"></i>
+				<span class="">Thông báo 1</span>
+			</div>
+
+			<div class="tb2 my-4" style="font-size: 24px">
+				<i class="fa fa-solid fa-bell mx-4" style="color: #3599ff;"></i>
+				<span class="">Thông báo 2</span>
+			</div>
+		</div>
+	</div>
+</div>
