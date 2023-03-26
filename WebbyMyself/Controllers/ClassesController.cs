@@ -21,7 +21,7 @@ namespace WebbyMyself.Controllers
         // GET: Classes
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Class.ToListAsync());
+            return View(await _context.Class.ToListAsync());
         }
 
         // GET: Classes/Details/5
@@ -45,6 +45,10 @@ namespace WebbyMyself.Controllers
         // GET: Classes/Create
         public IActionResult Create()
         {
+            List<Branch> branches = _context.Branch.ToList();
+            SelectList selectListItems = new SelectList(branches, "ID", "BranchName");
+            ViewBag.listBranches = selectListItems;
+
             return View();
         }
 
