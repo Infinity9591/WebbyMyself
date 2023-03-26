@@ -41,7 +41,7 @@
             <td width="5%">
                 @Html.DisplayFor(modelItem => item.BranchID)
             </td>
-            <td align="right" width="21%">
+            <td class="d-flex flex-row justify-content-end">
                 <a class="btn btn-success " title="Sửa" asp-action="Edit" asp-route-id="@item.ID"><i class="fa fa-pen"></i> Sửa</a> 
                 <a class="btn btn-info mx-2 " asp-action="Details" asp-route-id="@item.ID"><i class="fa fa-eye"></i> Xem</a> 
                 <a class="btn btn-danger " asp-action="Delete" asp-route-id="@item.ID"><i class="fa fa-trash"></i> Xóa</a>

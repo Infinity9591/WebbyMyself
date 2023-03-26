@@ -8,7 +8,7 @@ namespace WebbyMyself.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBulder)
         {
             optionsBulder.UseSqlServer(
-                "your connection string"
+                "Data Source=DESKTOP-24T1NPF;Initial Catalog=SV; Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"
             );
         }
         public virtual DbSet<Branch> Branch { get; set; }

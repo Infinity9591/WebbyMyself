@@ -13,6 +13,7 @@
 <h1 class="title">Thông tin Khoa/Ngành</h1>
 
 <table class="table">
+
     <thead>
         <tr>
             <th>
@@ -26,6 +27,7 @@
             </td>
         </tr>
     </thead>
+
     <tbody>
     @foreach (var item in Model) {
         <tr class="align-middle">
@@ -35,7 +37,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.BranchName)
             </td>
-            <td align="right" width="21%">
+            <td class="d-flex flex-row justify-content-end ">
                 <a class="btn btn-success " title="Sửa" asp-action="Edit" asp-route-id="@item.ID"><i class="fa fa-pen"></i> Sửa</a> 
                 <a class="btn btn-info mx-2 " asp-action="Details" asp-route-id="@item.ID"><i class="fa fa-eye"></i> Xem</a> 
                 <a class="btn btn-danger " asp-action="Delete" asp-route-id="@item.ID"><i class="fa fa-trash"></i> Xóa</a>
@@ -43,4 +45,5 @@
         </tr>
     }
     </tbody>
+
 </table>
