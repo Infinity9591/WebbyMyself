@@ -45,6 +45,9 @@ namespace WebbyMyself.Controllers
         // GET: Students/Create
         public IActionResult Create()
         {
+            List<Class> classes = _context.Class.ToList();
+            SelectList selectListItems = new SelectList(classes, "ID", "ClassName");
+            ViewBag.listClasses = selectListItems;
             return View();
         }
 
@@ -67,6 +70,9 @@ namespace WebbyMyself.Controllers
         // GET: Students/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            List<Class> classes = _context.Class.ToList();
+            SelectList selectListItems = new SelectList(classes, "ID", "ClassName");
+            ViewBag.listClasses = selectListItems;
             if (id == null || _context.Student == null)
             {
                 return NotFound();

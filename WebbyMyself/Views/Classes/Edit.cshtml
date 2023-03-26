@@ -24,10 +24,11 @@
                     <span asp-validation-for="ClassName" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="BranchID" class="control-label">ID ngành</label>
-                    <input asp-for="BranchID" class="form-control" />
+                    <label asp-for="BranchID" class="control-label">Ngành</label>
+                    <select asp-for="BranchID" asp-items="@ViewBag.listBranches" class="form-control"></select>
                     <span asp-validation-for="BranchID" class="text-danger"></span>
                 </div>
+                <br />
                 <div class="form-group">
                     <button type="submit" title="Lưu" class="btn btn-primary my-3"><i class="fa fa-save"></i> Lưu</button>
                     <a class="btn btn-secondary" asp-action="Index">Trở về trang chủ</a>

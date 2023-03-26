@@ -71,6 +71,9 @@ namespace WebbyMyself.Controllers
         // GET: Classes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            List<Branch> branches = _context.Branch.ToList();
+            SelectList selectListItems = new SelectList(branches, "ID", "BranchName");
+            ViewBag.listBranches = selectListItems;
             if (id == null || _context.Class == null)
             {
                 return NotFound();
