@@ -1,4 +1,4 @@
-USE master;
+﻿USE master;
 DROP DATABASE IF EXISTS SV;
 GO
 CREATE DATABASE SV;
@@ -32,9 +32,10 @@ CREATE TABLE Student
     [Address] nvarchar(50),
     ClassID int foreign key references Class(ID)
 )
-INSERT INTO Branch VALUES (1, N'C�ng ngh? th�ng tin')
-INSERT INTO Branch VALUES (2, N'C�ng ngh? ph?n m?n')
-INSERT INTO Branch VALUES (3, N'Truy?n th�ng m?ng m�y t�nh')
+
+INSERT INTO Branch VALUES (1, N'Công nghệ thông tin')
+INSERT INTO Branch VALUES (2, N'Công nghệ phần mềm')
+INSERT INTO Branch VALUES (3, N'Truyền thông mạng máy tính')
 
 INSERT INTO Class VALUES (1, N'CNT62DH',1)
 INSERT INTO Class VALUES (2, N'KPM62DH',2)
@@ -49,3 +50,19 @@ CREATE VIEW ClassManage AS
 SELECT Class.ID, Class.ClassName, Branch.BranchName
 FROM Branch, Class
 where Class.BranchID = Branch.ID
+GO
+
+DROP VIEW IF EXISTS StudentManage 
+GO
+CREATE VIEW StudentManage AS
+SELECT Student.ID, Student.[Name], Phone, Email, [Address], ClassName
+FROM Student, Class
+WHERE Student.ClassID = Class.ID
+
+GO
+
+select * 
+from ClassManage
+
+select * 
+FROM StudentManage
