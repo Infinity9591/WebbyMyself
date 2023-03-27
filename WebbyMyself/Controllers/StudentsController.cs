@@ -21,7 +21,7 @@ namespace WebbyMyself.Controllers
         // GET: Students
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Student.ToListAsync());
+              return View(await _context.StudentManage.ToListAsync());
         }
 
         // GET: Students/Details/5
@@ -32,7 +32,7 @@ namespace WebbyMyself.Controllers
                 return NotFound();
             }
 
-            var student = await _context.Student
+            var student = await _context.StudentManage
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (student == null)
             {
@@ -129,7 +129,7 @@ namespace WebbyMyself.Controllers
                 return NotFound();
             }
 
-            var student = await _context.Student
+            var student = await _context.StudentManage
                 .FirstOrDefaultAsync(m => m.ID == id);
             if (student == null)
             {

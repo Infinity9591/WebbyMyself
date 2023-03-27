@@ -1,4 +1,4 @@
-﻿@model IEnumerable<WebbyMyself.Models.Class>
+﻿@model IEnumerable<WebbyMyself.Models.ClassManage>
 
 @{
     ViewData["Title"] = "Index";
@@ -38,8 +38,8 @@
             <td>
                 @Html.DisplayFor(modelItem => item.ClassName)
             </td>
-            <td width="5%">
-                @Html.DisplayFor(modelItem => item.BranchID)
+            <td>
+                @Html.DisplayFor(modelItem => item.BranchName)
             </td>
             <td class="d-flex flex-row justify-content-end">
                 <a class="btn btn-success " title="Sửa" asp-action="Edit" asp-route-id="@item.ID"><i class="fa fa-pen"></i> Sửa</a> 

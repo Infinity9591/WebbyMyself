@@ -1,4 +1,4 @@
-﻿@model WebbyMyself.Models.Class
+﻿@model WebbyMyself.Models.ClassManage
 
 @{
     ViewData["Title"] = "Delete";
@@ -22,13 +22,13 @@
                     Lớp
             </dt>
             <dd class = "col-sm-10">
-                    @Html.DisplayFor(model => model.ClassName)
+                @Html.DisplayFor(model => model.ClassName)
             </dd>
             <dt class = "col-sm-2">
                     Ngành
             </dt>
             <dd class = "col-sm-10">
-                    @Html.DisplayFor(model => model.BranchID)
+                @Html.DisplayFor(model => model.BranchName)
             </dd>
         </dl>
 

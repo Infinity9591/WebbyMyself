@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using WebbyMyself.Models;
 
 namespace WebbyMyself.Models
@@ -8,11 +9,13 @@ namespace WebbyMyself.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBulder)
         {
             optionsBulder.UseSqlServer(
-                "Data Source=DESKTOP-24T1NPF;Initial Catalog=SV; Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"
+                "Your connection string"
             );
         }
         public virtual DbSet<Branch> Branch { get; set; }
         public virtual DbSet<Class> Class { get; set; }
         public virtual DbSet<Student> Student { get; set; }
+        public virtual DbSet<ClassManage> ClassManage { get; set; }
+        public virtual DbSet<StudentManage> StudentManage { get; set; }
     }
 }
