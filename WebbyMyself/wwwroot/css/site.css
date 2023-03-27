@@ -81,7 +81,13 @@ body {
     cursor: pointer;
 }
 
-
+.header-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index:999;
+    width: calc(100% - 280px)
+}
 
 .title {
     padding-top: 30px;
